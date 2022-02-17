@@ -1,0 +1,59 @@
+.container{
+    display: flex;
+    margin: auto;
+    width: 80%;
+}
+.header_wrapper{
+    width: 100%;
+}
+.logo{
+    width: 30%;
+    height: auto;
+    
+}
+.header_flex{
+   width: 35%; 
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   
+}
+.header_calendar{
+  text-align: center;
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header_phone{
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* Mobile with < 740px */
+@media only screen and (max-width : 46.1875em) {
+    .header_phone,
+    .header_calendar,
+    .from_search {
+        display: none;
+    }
+    .logo{
+        width: 90%;
+    }
+
+    
+    }
+
+/* tablet with >=740px and width <1024 */
+@media only screen and (min-width : 740px) and (max-width : 1023px) {
+    .header_phone,
+    .header_calendar{
+        display: none;
+    }
+    .logo,
+    .header_flex{
+        width: 50%;
+    }
+}
+   

@@ -1,0 +1,31 @@
+.div_nav{
+  width: 100%;
+  background-color:rgba(15, 154, 247, 0.74);
+  text-align:center;
+}
+ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    width: 80%;
+    display: flex;
+  }
+li a {
+    display:inline-block;
+    display: block;
+    color: white;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+ p{
+  margin-left: auto;
+ }
+ @media only screen and (max-width : 46.1875em) {
+  li a{
+    display: none;
+  }
+
+  
+  }
+
